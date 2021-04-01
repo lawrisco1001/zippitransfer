@@ -3641,3 +3641,167 @@ Referer URL: http://zippitransfer.test/
 Client IP: 127.0.0.1
 
 
+2021-04-01 15:32:17 Error: [Cake\Http\Exception\MissingControllerException] Controller class S3UsWest2.amazonaws.com could not be found. in C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'S3UsWest2.amazonaws.com',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:213
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\zippitransfer\webroot\index.php:40
+
+Request URL: /s3-us-west-2.amazonaws.com/s.cdpn.io/106949/jquery.onscreen.js
+Referer URL: http://zippitransfer.test/
+Client IP: 127.0.0.1
+
+
+2021-04-01 15:32:17 Error: [Cake\Http\Exception\MissingControllerException] Controller class Cdnjs.cloudflare.com could not be found. in C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Cdnjs.cloudflare.com',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:213
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\zippitransfer\webroot\index.php:40
+
+Request URL: /cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js
+Referer URL: http://zippitransfer.test/
+Client IP: 127.0.0.1
+
+
+2021-04-01 15:32:17 Error: [Cake\Http\Exception\MissingControllerException] Controller class Images could not be found. in C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\zippitransfer\webroot\index.php:40
+
+Request URL: /images/avatar.png
+Referer URL: http://zippitransfer.test/
+Client IP: 127.0.0.1
+
+
+2021-04-01 15:32:22 Error: [Cake\Http\Exception\MissingControllerException] Controller class Cdnjs.cloudflare.com could not be found. in C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'Cdnjs.cloudflare.com',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:213
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\zippitransfer\webroot\index.php:40
+
+Request URL: /cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js
+Referer URL: http://zippitransfer.test/
+Client IP: 127.0.0.1
+
+
+2021-04-01 15:32:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class S3UsWest2.amazonaws.com could not be found. in C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 229
+Exception Attributes: array (
+  'class' => 'S3UsWest2.amazonaws.com',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:213
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\zippitransfer\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\zippitransfer\webroot\index.php:40
+
+Request URL: /s3-us-west-2.amazonaws.com/s.cdpn.io/106949/jquery.onscreen.js
+Referer URL: http://zippitransfer.test/
+Client IP: 127.0.0.1
+
+
